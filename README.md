@@ -1,6 +1,9 @@
 # DA6401-Assignment-3
 Assignment 3 of DA6401, Introduction to Deep Learning 
 
+Report: https://wandb.ai/alandandoor-iit-madras/DL_A3/reports/Assignment-3--VmlldzoxMjc4Nzc4Ng?accessToken=lwd1ytj30khb5sb5x6c2iixlsrih8bzvmtuksnxusguno0q1xw49aqbk72s0x1fk
+Github: https://github.com/AndoorAlanD/DA6401-Assignment-3
+
 **Codes**
 -----------------
 **DL_As3_Q1-4.py** :- This python file contains the code for questions 1 to 4 of assignment and can be called from command line arguments as shown below.
