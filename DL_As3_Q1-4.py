@@ -163,7 +163,7 @@ def run_epoch(loader, encoder, decoder, opt_enc, opt_dec, criterion, batch_sz, t
 
     return epoch_loss / len(loader), (100 * correct) / total
 
-def run_training(train_dl, val_dl, test_dl, encoder, decoder, config, n_epochs=2):
+def run_training(train_dl, val_dl, test_dl, encoder, decoder, config, n_epochs=20):
     opt_enc = optim.Adam(encoder.parameters(), lr=config.lr)
     opt_dec = optim.Adam(decoder.parameters(), lr=config.lr)
     criterion = nn.NLLLoss()
